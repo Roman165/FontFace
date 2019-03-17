@@ -11,20 +11,20 @@ body {
 	height: 1200px;
 
 	}
-main {
+article {
 	margin: 130px 100px; 
 	background-color: #fff;
 	box-shadow: 0 0 150px 0 rgba(0,0,0, .1);
+	padding:14rem 14rem 12rem 12rem 
 }
 .headline {
-	margin: 14rem 0 4rem 12.5rem ;
+	margin: 0 0 4rem 0 ;
 	display: inline-block;
 	font-size: 4.2rem;
 	font-family: 'Playfair Display', serif;
 }
-form {
+div {
 	display: inline-block;
-	margin: 0 12rem 0 12rem;
 }
  p{
 	font-family: 'Lato', sans-serif;
@@ -46,7 +46,7 @@ form {
 }
 blockquote {
 	font-size: 2.4rem;
-	margin: .5rem 0 0 0;
+	margin: .5rem 0 4rem 0;
 	padding-left: 3rem;
 	font-style: italic; 
 	position: relative;
@@ -60,7 +60,6 @@ blockquote:before {
 	font-size: 4rem;
 }
 button {
-	margin: 4rem 0 12rem 0;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
 	border-color: #eaa258;
